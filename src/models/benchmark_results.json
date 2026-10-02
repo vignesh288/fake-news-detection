@@ -1,0 +1,82 @@
+[
+  {
+    "experiment": "Baseline TF-IDF + Logistic Regression",
+    "accuracy": 0.6666666666666666,
+    "precision_fake": 1.0,
+    "recall_fake": 0.5,
+    "f1_fake": 0.6666666666666666,
+    "confusion_matrix": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "training_rows": 14,
+    "test_rows": 3,
+    "model_type": "LogisticRegression"
+  },
+  {
+    "experiment": "Optimized TF-IDF + Logistic Regression",
+    "accuracy": 0.6666666666666666,
+    "precision_fake": 1.0,
+    "recall_fake": 0.5,
+    "f1_fake": 0.6666666666666666,
+    "confusion_matrix": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "training_rows": 14,
+    "test_rows": 3,
+    "model_type": "LogisticRegression"
+  },
+  {
+    "experiment": "TF-IDF + Linear SVM",
+    "accuracy": 0.6666666666666666,
+    "precision_fake": 1.0,
+    "recall_fake": 0.5,
+    "f1_fake": 0.6666666666666666,
+    "confusion_matrix": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "training_rows": 14,
+    "test_rows": 3,
+    "model_type": "LinearSVC"
+  },
+  {
+    "experiment": "TF-IDF + Multinomial Naive Bayes",
+    "accuracy": 0.6666666666666666,
+    "precision_fake": 1.0,
+    "recall_fake": 0.5,
+    "f1_fake": 0.6666666666666666,
+    "confusion_matrix": [
+      [
+        1,
+        0
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "training_rows": 14,
+    "test_rows": 3,
+    "model_type": "MultinomialNB"
+  }
+]

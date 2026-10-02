@@ -1,0 +1,11 @@
+{
+  "model_name": "Baseline TF-IDF + Logistic Regression",
+  "dataset_name": "ISOT",
+  "classes": [
+    "fake",
+    "real"
+  ],
+  "training_rows": 14,
+  "test_rows": 3,
+  "best_f1_fake": 0.6666666666666666
+}
