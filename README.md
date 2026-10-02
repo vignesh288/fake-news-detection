@@ -82,7 +82,7 @@ Then rerun the training command.
 
 - POST http://localhost:8000/api/predict
 - GET http://localhost:8000/api/history
- - GET http://localhost:8000/api/health
+- GET http://localhost:8000/api/health
 
 ## Example request body
 
