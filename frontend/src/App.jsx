@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Routes, Route, Link } from 'react-router-dom';
 
-const API_BASE = 'http://localhost:8000/api';
+const API_BASE = `${import.meta.env.VITE_API_BASE_URL || (import.meta.env.DEV ? 'http://localhost:8000' : '')}/api`;
 
 const theme = {
   pageBg: '#06131f',
@@ -1124,4 +1124,3 @@ const styles = {
     borderBottom: `1px solid ${theme.border}`,
   },
 };
-

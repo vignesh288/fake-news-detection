@@ -78,6 +78,12 @@ The raw dataset files in the project were empty placeholders. For a real working
 
 Then rerun the training command.
 
+## Deploy on Render
+
+The repository includes a Render Blueprint and a Dockerfile that deploy the frontend and API together. Push the project to GitHub, then create a new Blueprint in the [Render Dashboard](https://dashboard.render.com/) and select this repository. Render will build and deploy the service and provide its public `onrender.com` URL.
+
+The free web-service plan may sleep when idle, so its first request after a period of inactivity can take longer.
+
 ## Default API endpoint
 
 - POST http://localhost:8000/api/predict
